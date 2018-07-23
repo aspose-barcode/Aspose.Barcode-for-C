@@ -23,5 +23,5 @@ Directory | Description
 + **Product Home:** [Aspose.BarCode for C++](https://www.aspose.com/products/barcode/cpp)
 + **Download:** [Download Aspose.BarCode for C++](https://downloads.aspose.com/barcode/cpp)
 + **Documentation:** [Aspose.BarCode for C++ Documentation](https://docs.aspose.com/display/barcodecpp/Home)
-+ **Forum:** [Aspose.BarCode] for C++ Forum](https://forum.aspose.com/c/barcdoe)
++ **Forum:** [Aspose.BarCode for C++ Forum](https://forum.aspose.com/c/barcode)
 + **Blog:** [Aspose.BarCode for C++ Blog](https://blog.aspose.com/category/aspose-products/aspose-barcode-product-family/)
