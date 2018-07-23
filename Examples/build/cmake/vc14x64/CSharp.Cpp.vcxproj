@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{EA7F0183-E39A-3B23-A9D2-D08C79FD51F6}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CSharp.Cpp</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\build\cmake\vc14x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CSharp.Cpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CSharp.Cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\build\cmake\vc14x64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CSharp.Cpp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CSharp.Cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">..\..\..\build\cmake\vc14x64\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CSharp.Cpp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CSharp.Cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">..\..\..\build\cmake\vc14x64\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CSharp.Cpp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CSharp.Cpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /utf-8 /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CSHARP_SHARED_EXPORTS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CSHARP_SHARED_EXPORTS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Aspose/Aspose.BarCode.for.CPP/CSharp.Cpp/build/cmake/vc14x64/Debug/CSharp.Cpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Aspose/Aspose.BarCode.for.CPP/CSharp.Cpp/build/cmake/vc14x64/Debug/CSharp.Cpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /utf-8 /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4250</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CSHARP_SHARED_EXPORTS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CSHARP_SHARED_EXPORTS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Aspose/Aspose.BarCode.for.CPP/CSharp.Cpp/build/cmake/vc14x64/Release/CSharp.Cpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Aspose/Aspose.BarCode.for.CPP/CSharp.Cpp/build/cmake/vc14x64/Release/CSharp.Cpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /utf-8 /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4250</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CSHARP_SHARED_EXPORTS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CSHARP_SHARED_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Aspose/Aspose.BarCode.for.CPP/CSharp.Cpp/build/cmake/vc14x64/MinSizeRel/CSharp.Cpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Aspose/Aspose.BarCode.for.CPP/CSharp.Cpp/build/cmake/vc14x64/MinSizeRel/CSharp.Cpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /utf-8 /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CSHARP_SHARED_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CSHARP_SHARED_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\..;..\..\..\include;..\..\..\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Aspose/Aspose.BarCode.for.CPP/CSharp.Cpp/build/cmake/vc14x64/RelWithDebInfo/CSharp.Cpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Aspose/Aspose.BarCode.for.CPP/CSharp.Cpp/build/cmake/vc14x64/RelWithDebInfo/CSharp.Cpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\Create2DBarcodes.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateAztecbarcode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateC40DatamatrixBarCode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateEnCodeDatamatrixBarCode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateMultipleMacroPdf417.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateSimpleDatamatrixBarCode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateTextDatamatrixBarCode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreatebarcodewithImageInsteadOfCodetext.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CustomEncodingModeInDataMatrix.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\DetectUnicodeEncoding.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeMicroQRCode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeQRCodEInECIMode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeQRCode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\FNC1FirstPositionInExtendedMode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\FNC1SecondPositionInExtendedMode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\HideBarcodeCodeText.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\ManagePDF417Barcode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\MultiECIModeInExtendedMode.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\ReduceCodeTextFontSize.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\SetAspectRatio.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\SettingQRVersion.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\UseAztecErrorCorrection.h" />
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\UseEncodeModeDatamatrixbarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectDecoratedDatamatrix.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectDotPeenDatamatrix.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectOrientationOfBarCode.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectUnreadableBarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ECCTypeToEnCodeBarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetAllPossible1DBarcodesfromImage.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetBarCodeRecognitionQualityInPercent.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetBarCodeRegionInformationfromImage.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ImageProcessingBarcodeRecognition.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ManualHints.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\MarkingBarCodeRegionsInImage.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\OptimizingBarCodeRecognitionProcess.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadBarcodeSpecificRegionOfImage.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleBarcodeRegions.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleMacroPdf417Barcodes.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleMacropdf417BarcodeImages.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\RecognizeMultipleSymbologies.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\RecognizeSpecificBarcodeSymbology.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ScanBarCodePicture.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SetBarcodeOrientation.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SupportImageFormat.h" />
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SwitchBarcodeRecognitionModes.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\BarcodeCaption.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\BarcodeWithChecksumValue.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\BarcodeWithSegments.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ChecksumSupplementData.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CodabarChecksumMode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CodabarStartStopSymbols.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CodetextAppearance.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateAndSetSizeForImageWithBarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateCode128Barcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateCouponExtendedBarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateDatamatrixBarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateImageWithExactBarcodeOnly.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreatePDF417Barcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreatePdf417BarcodeWithChineseCharacters.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreatePdf417BarcodeWithTurkishCharacters.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreatePostalBarcodeWithHeight.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateQRbarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateUpcaGs1DatabarCoupon.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\DisplayChecksumCharacter.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ExportPropertiesToXML.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GenerateAndRecognizeUTF8Characters.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GenerateAustraliaPostBarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GeneratingCodablockF.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GeneratingGS1ForCodablock.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GeneratingGS1_128AI8012Barcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GetDLLVersionInformation.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GetMinimumBarCodeSize.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\IdentifyTypeOfCode128.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ManageCaption.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ManageXYDimension.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\OptionalExceptionMessageWith1DBarCode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ReadAndSortBarcodesInSpecificOrder.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ReadBarcodeFromTIFFImages.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\RecognizeBarcodeWithChineseCharacters.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\RecognizeBarcodeWithTurkishCharacters.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetCodeText.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetHeightBarcodeBars.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetHeightOfBarsInDataBarStackedOmniDirectional.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetQREncodeMode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetQRErrorCorrection.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetSupplementData.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetWideNarrowRatio.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SpecifySymbologies.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SpecifySymbology.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SwissPostParcelBarcodeWithAdditionalServiceType.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SwissPostParcelBarcodeWithInternationalMailType.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SwissPostParcelSymbology.h" />
+    <ClInclude Include="..\..\..\source\ManageBarCodes\WideNarrowRatio.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\AddSpaceInBarCodeAndText.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeCustomSize.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeImageBorders.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeImageMargins.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeImageQuality.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeImageResolution.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\ColorizeAnyPartoftheBarcodeImage.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\ControlBarsFillingofOneDBarcodes.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\PrintBarcodeImage.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\RotateBarcode.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\RotateBarcodeImage.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SaveBarcodeImageToStreams.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SaveBarcodeImagesToDifferentFormats.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetCodeAlignment.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetCodeTextFontFamilyNameAndSize.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetCodetextLocation.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetFontandColorSetting.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetForeColorText.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetFrameOut.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetITF14SpecifyBorderType.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetSizeUnitForBarcodeImage.h" />
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SpecifyITF14BorderThicknes.h" />
+    <ClInclude Include="..\..\..\source\RunExamples.h" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\Create2DBarcodes.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateAztecbarcode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateC40DatamatrixBarCode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateEnCodeDatamatrixBarCode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateMultipleMacroPdf417.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateSimpleDatamatrixBarCode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateTextDatamatrixBarCode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreatebarcodewithImageInsteadOfCodetext.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CustomEncodingModeInDataMatrix.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\DetectUnicodeEncoding.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeMicroQRCode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeQRCodEInECIMode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeQRCode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\FNC1FirstPositionInExtendedMode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\FNC1SecondPositionInExtendedMode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\HideBarcodeCodeText.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\ManagePDF417Barcode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\MultiECIModeInExtendedMode.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\ReduceCodeTextFontSize.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\SetAspectRatio.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\SettingQRVersion.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\UseAztecErrorCorrection.cpp" />
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\UseEncodeModeDatamatrixbarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectDecoratedDatamatrix.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectDotPeenDatamatrix.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectOrientationOfBarCode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectUnreadableBarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ECCTypeToEnCodeBarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetAllPossible1DBarcodesfromImage.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetBarCodeRecognitionQualityInPercent.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetBarCodeRegionInformationfromImage.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ImageProcessingBarcodeRecognition.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ManualHints.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\MarkingBarCodeRegionsInImage.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\OptimizingBarCodeRecognitionProcess.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadBarcodeSpecificRegionOfImage.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleBarcodeRegions.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleMacroPdf417Barcodes.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleMacropdf417BarcodeImages.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\RecognizeMultipleSymbologies.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\RecognizeSpecificBarcodeSymbology.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ScanBarCodePicture.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SetBarcodeOrientation.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SupportImageFormat.cpp" />
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SwitchBarcodeRecognitionModes.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\BarcodeCaption.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\BarcodeWithChecksumValue.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\BarcodeWithSegments.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ChecksumSupplementData.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CodabarChecksumMode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CodabarStartStopSymbols.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CodetextAppearance.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateAndSetSizeForImageWithBarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateCode128Barcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateCouponExtendedBarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateDatamatrixBarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateImageWithExactBarcodeOnly.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreatePDF417Barcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreatePdf417BarcodeWithChineseCharacters.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreatePdf417BarcodeWithTurkishCharacters.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreatePostalBarcodeWithHeight.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateQRbarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateUpcaGs1DatabarCoupon.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\DisplayChecksumCharacter.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ExportPropertiesToXML.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GenerateAndRecognizeUTF8Characters.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GenerateAustraliaPostBarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GeneratingCodablockF.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GeneratingGS1ForCodablock.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GeneratingGS1_128AI8012Barcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GetDLLVersionInformation.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GetMinimumBarCodeSize.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\IdentifyTypeOfCode128.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ManageCaption.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ManageXYDimension.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\OptionalExceptionMessageWith1DBarCode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ReadAndSortBarcodesInSpecificOrder.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ReadBarcodeFromTIFFImages.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\RecognizeBarcodeWithChineseCharacters.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\RecognizeBarcodeWithTurkishCharacters.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetCodeText.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetHeightBarcodeBars.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetHeightOfBarsInDataBarStackedOmniDirectional.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetQREncodeMode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetQRErrorCorrection.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetSupplementData.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetWideNarrowRatio.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SpecifySymbologies.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SpecifySymbology.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SwissPostParcelBarcodeWithAdditionalServiceType.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SwissPostParcelBarcodeWithInternationalMailType.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SwissPostParcelSymbology.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarCodes\WideNarrowRatio.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\AddSpaceInBarCodeAndText.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeCustomSize.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeImageBorders.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeImageMargins.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeImageQuality.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeImageResolution.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\ColorizeAnyPartoftheBarcodeImage.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\ControlBarsFillingofOneDBarcodes.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\PrintBarcodeImage.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\RotateBarcode.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\RotateBarcodeImage.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SaveBarcodeImageToStreams.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SaveBarcodeImagesToDifferentFormats.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetCodeAlignment.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetCodeTextFontFamilyNameAndSize.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetCodetextLocation.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetFontandColorSetting.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetForeColorText.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetFrameOut.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetITF14SpecifyBorderType.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetSizeUnitForBarcodeImage.cpp" />
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SpecifyITF14BorderThicknes.cpp" />
+    <ClCompile Include="..\..\..\source\RunExamples.cpp" />
+    <ClCompile Include="..\..\..\source\version_compatibility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\..\packages\Aspose.BarCode.Cpp.18.6.0\build\native\Aspose.BarCode.Cpp.targets" Condition="Exists('..\..\..\packages\Aspose.BarCode.Cpp.18.6.0\build\native\Aspose.BarCode.Cpp.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\packages\Aspose.BarCode.Cpp.18.6.0\build\native\Aspose.BarCode.Cpp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\Aspose.BarCode.Cpp.18.6.0\build\native\Aspose.BarCode.Cpp.targets'))" />
+  </Target>
+</Project>
