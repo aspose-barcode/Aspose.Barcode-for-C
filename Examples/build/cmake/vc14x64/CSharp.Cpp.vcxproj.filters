@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\Create2DBarcodes.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateAztecbarcode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateC40DatamatrixBarCode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateEnCodeDatamatrixBarCode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateMultipleMacroPdf417.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateSimpleDatamatrixBarCode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateTextDatamatrixBarCode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreatebarcodewithImageInsteadOfCodetext.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\CustomEncodingModeInDataMatrix.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\DetectUnicodeEncoding.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeMicroQRCode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeQRCodEInECIMode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeQRCode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\FNC1FirstPositionInExtendedMode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\FNC1SecondPositionInExtendedMode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\HideBarcodeCodeText.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\ManagePDF417Barcode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\MultiECIModeInExtendedMode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\ReduceCodeTextFontSize.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\SetAspectRatio.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\SettingQRVersion.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\UseAztecErrorCorrection.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CreateAndManageTwoDBarcodes\UseEncodeModeDatamatrixbarcode.cpp">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectDecoratedDatamatrix.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectDotPeenDatamatrix.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectOrientationOfBarCode.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectUnreadableBarcode.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ECCTypeToEnCodeBarcode.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetAllPossible1DBarcodesfromImage.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetBarCodeRecognitionQualityInPercent.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetBarCodeRegionInformationfromImage.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ImageProcessingBarcodeRecognition.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ManualHints.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\MarkingBarCodeRegionsInImage.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\OptimizingBarCodeRecognitionProcess.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadBarcodeSpecificRegionOfImage.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleBarcodeRegions.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleMacroPdf417Barcodes.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleMacropdf417BarcodeImages.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\RecognizeMultipleSymbologies.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\RecognizeSpecificBarcodeSymbology.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ScanBarCodePicture.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SetBarcodeOrientation.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SupportImageFormat.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SwitchBarcodeRecognitionModes.cpp">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\BarcodeCaption.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\BarcodeWithChecksumValue.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\BarcodeWithSegments.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ChecksumSupplementData.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CodabarChecksumMode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CodabarStartStopSymbols.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CodetextAppearance.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateAndSetSizeForImageWithBarcode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateCode128Barcode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateCouponExtendedBarcode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateDatamatrixBarcode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateImageWithExactBarcodeOnly.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreatePDF417Barcode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreatePdf417BarcodeWithChineseCharacters.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreatePdf417BarcodeWithTurkishCharacters.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreatePostalBarcodeWithHeight.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateQRbarcode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\CreateUpcaGs1DatabarCoupon.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\DisplayChecksumCharacter.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ExportPropertiesToXML.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GenerateAndRecognizeUTF8Characters.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GenerateAustraliaPostBarcode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GeneratingCodablockF.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GeneratingGS1ForCodablock.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GeneratingGS1_128AI8012Barcode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GetDLLVersionInformation.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\GetMinimumBarCodeSize.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\IdentifyTypeOfCode128.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ManageCaption.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ManageXYDimension.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\OptionalExceptionMessageWith1DBarCode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ReadAndSortBarcodesInSpecificOrder.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\ReadBarcodeFromTIFFImages.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\RecognizeBarcodeWithChineseCharacters.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\RecognizeBarcodeWithTurkishCharacters.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetCodeText.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetHeightBarcodeBars.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetHeightOfBarsInDataBarStackedOmniDirectional.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetQREncodeMode.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetQRErrorCorrection.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetSupplementData.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SetWideNarrowRatio.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SpecifySymbologies.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SpecifySymbology.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SwissPostParcelBarcodeWithAdditionalServiceType.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SwissPostParcelBarcodeWithInternationalMailType.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\SwissPostParcelSymbology.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarCodes\WideNarrowRatio.cpp">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\AddSpaceInBarCodeAndText.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeCustomSize.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeImageBorders.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeImageMargins.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeImageQuality.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\BarcodeImageResolution.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\ColorizeAnyPartoftheBarcodeImage.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\ControlBarsFillingofOneDBarcodes.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\PrintBarcodeImage.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\RotateBarcode.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\RotateBarcodeImage.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SaveBarcodeImageToStreams.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SaveBarcodeImagesToDifferentFormats.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetCodeAlignment.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetCodeTextFontFamilyNameAndSize.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetCodetextLocation.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetFontandColorSetting.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetForeColorText.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetFrameOut.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetITF14SpecifyBorderType.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SetSizeUnitForBarcodeImage.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ManageBarcodeImages\SpecifyITF14BorderThicknes.cpp">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\RunExamples.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\version_compatibility.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\Create2DBarcodes.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateAztecbarcode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateC40DatamatrixBarCode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateEnCodeDatamatrixBarCode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateMultipleMacroPdf417.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateSimpleDatamatrixBarCode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreateTextDatamatrixBarCode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CreatebarcodewithImageInsteadOfCodetext.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\CustomEncodingModeInDataMatrix.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\DetectUnicodeEncoding.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeMicroQRCode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeQRCodEInECIMode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\EncodeQRCode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\FNC1FirstPositionInExtendedMode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\FNC1SecondPositionInExtendedMode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\HideBarcodeCodeText.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\ManagePDF417Barcode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\MultiECIModeInExtendedMode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\ReduceCodeTextFontSize.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\SetAspectRatio.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\SettingQRVersion.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\UseAztecErrorCorrection.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\CreateAndManageTwoDBarcodes\UseEncodeModeDatamatrixbarcode.h">
+      <Filter>source\CreateAndManageTwoDBarcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectDecoratedDatamatrix.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectDotPeenDatamatrix.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectOrientationOfBarCode.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\DetectUnreadableBarcode.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ECCTypeToEnCodeBarcode.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetAllPossible1DBarcodesfromImage.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetBarCodeRecognitionQualityInPercent.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\GetBarCodeRegionInformationfromImage.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ImageProcessingBarcodeRecognition.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ManualHints.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\MarkingBarCodeRegionsInImage.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\OptimizingBarCodeRecognitionProcess.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadBarcodeSpecificRegionOfImage.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleBarcodeRegions.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleMacroPdf417Barcodes.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ReadMultipleMacropdf417BarcodeImages.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\RecognizeMultipleSymbologies.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\RecognizeSpecificBarcodeSymbology.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\ScanBarCodePicture.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SetBarcodeOrientation.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SupportImageFormat.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageAndOptimizeBarcodeRecognition\SwitchBarcodeRecognitionModes.h">
+      <Filter>source\ManageAndOptimizeBarcodeRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\BarcodeCaption.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\BarcodeWithChecksumValue.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\BarcodeWithSegments.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ChecksumSupplementData.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CodabarChecksumMode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CodabarStartStopSymbols.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CodetextAppearance.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateAndSetSizeForImageWithBarcode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateCode128Barcode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateCouponExtendedBarcode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateDatamatrixBarcode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateImageWithExactBarcodeOnly.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreatePDF417Barcode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreatePdf417BarcodeWithChineseCharacters.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreatePdf417BarcodeWithTurkishCharacters.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreatePostalBarcodeWithHeight.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateQRbarcode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\CreateUpcaGs1DatabarCoupon.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\DisplayChecksumCharacter.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ExportPropertiesToXML.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GenerateAndRecognizeUTF8Characters.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GenerateAustraliaPostBarcode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GeneratingCodablockF.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GeneratingGS1ForCodablock.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GeneratingGS1_128AI8012Barcode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GetDLLVersionInformation.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\GetMinimumBarCodeSize.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\IdentifyTypeOfCode128.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ManageCaption.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ManageXYDimension.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\OptionalExceptionMessageWith1DBarCode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ReadAndSortBarcodesInSpecificOrder.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\ReadBarcodeFromTIFFImages.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\RecognizeBarcodeWithChineseCharacters.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\RecognizeBarcodeWithTurkishCharacters.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetCodeText.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetHeightBarcodeBars.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetHeightOfBarsInDataBarStackedOmniDirectional.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetQREncodeMode.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetQRErrorCorrection.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetSupplementData.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SetWideNarrowRatio.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SpecifySymbologies.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SpecifySymbology.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SwissPostParcelBarcodeWithAdditionalServiceType.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SwissPostParcelBarcodeWithInternationalMailType.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\SwissPostParcelSymbology.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarCodes\WideNarrowRatio.h">
+      <Filter>source\ManageBarCodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\AddSpaceInBarCodeAndText.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeCustomSize.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeImageBorders.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeImageMargins.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeImageQuality.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\BarcodeImageResolution.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\ColorizeAnyPartoftheBarcodeImage.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\ControlBarsFillingofOneDBarcodes.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\PrintBarcodeImage.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\RotateBarcode.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\RotateBarcodeImage.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SaveBarcodeImageToStreams.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SaveBarcodeImagesToDifferentFormats.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetCodeAlignment.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetCodeTextFontFamilyNameAndSize.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetCodetextLocation.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetFontandColorSetting.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetForeColorText.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetFrameOut.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetITF14SpecifyBorderType.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SetSizeUnitForBarcodeImage.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\ManageBarcodeImages\SpecifyITF14BorderThicknes.h">
+      <Filter>source\ManageBarcodeImages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\RunExamples.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{24AD2A47-943E-3A65-850D-150C4C2B0DEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\CreateAndManageTwoDBarcodes">
+      <UniqueIdentifier>{E1E48014-701B-30F0-9F58-D6372058B151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ManageAndOptimizeBarcodeRecognition">
+      <UniqueIdentifier>{B70645A9-A149-388C-ADDA-1A213E974DC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ManageBarCodes">
+      <UniqueIdentifier>{154F2687-22BB-3209-9E99-E4CC3291A0C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ManageBarcodeImages">
+      <UniqueIdentifier>{F6D23472-34C5-3385-BC1E-3C5D43E7CA2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)tools\aspose_types.natvis" />
+  </ItemGroup>
+</Project>
