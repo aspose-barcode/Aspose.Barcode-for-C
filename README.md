@@ -7,7 +7,7 @@ Aspose.BarCode for C++ not only creates barcodes but also can export the generat
 This repository contains [Examples](Examples) for Aspose.BarCode for C++ to help you learn and write your own applications.
 
 <p align="center">
-<a title="Download complete Aspose.BarCode for C++ source code" href="https://github.com/aspose-zip/Aspose.ZIP-for-.NET/archive/master.zip">
+<a title="Download complete Aspose.BarCode for C++ source code" href="https://github.com/aspose-barcode/Aspose.Barcode-for-C/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
