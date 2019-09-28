@@ -51,11 +51,6 @@ public:
         
         FoundBarCodes(System::String text, System::SharedPtr<Aspose::BarCode::BarCodeRecognition::BarCodeRegion> reg);
         FoundBarCodes();
-        
-    protected:
-    
-        System::Object::shared_members_type GetSharedMembers() override;
-        
     };
     
     class FoundComparator : public System::Collections::Generic::IComparer<Aspose::BarCode::Examples::CSharp::ManageBarCodes::ReadAndSortBarcodesInSpecificOrder::FoundBarCodes>

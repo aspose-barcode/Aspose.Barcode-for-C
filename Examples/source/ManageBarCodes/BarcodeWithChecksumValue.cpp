@@ -13,9 +13,9 @@ please feel free to contact us using http://www.aspose.com/community/forums/defa
 #include <system/object.h>
 #include <system/details/dispose_guard.h>
 #include <system/console.h>
-#include <BarCodeRecognition/Recognition/RecognitionFilters/DecodeTypes/SingleDecodeType.h>
-#include <BarCodeRecognition/Recognition/RecognitionFilters/DecodeTypes/DecodeType.h>
-#include <BarCodeRecognition/Recognition/RecognitionFilters/BarCodeReader.h>
+#include <BarCodeRecognition/Recognition/RecognitionSession/DecodeTypes/SingleDecodeType.h>
+#include <BarCodeRecognition/Recognition/RecognitionSession/DecodeTypes/DecodeType.h>
+#include <BarCodeRecognition/Recognition/RecognitionSession/BarCodeReader.h>
 
 #include "RunExamples.h"
 
@@ -33,7 +33,7 @@ RTTI_INFO_IMPL_HASH(2588785965u, ::Aspose::BarCode::Examples::CSharp::ManageBarC
 
 void BarcodeWithChecksumValue::Run()
 {
-    // ExStart:ChecksumSupplementData 
+    //ExStart:ChecksumSupplementData
     
     // The path to the documents directory.
     System::String dataDir = RunExamples::GetDataDir_ManageBarCodes();
@@ -59,7 +59,7 @@ void BarcodeWithChecksumValue::Run()
         }
     }
     
-    // ExEnd:ChecksumSupplementData 
+    //ExEnd:ChecksumSupplementData
 }
 
 } // namespace ManageBarCodes

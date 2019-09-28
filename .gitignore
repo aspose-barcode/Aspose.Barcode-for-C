@@ -26,3 +26,5 @@ TestResults/
 *.vsmdi
 *.gitattributes
 *.log
+*.obj
+*.tlog

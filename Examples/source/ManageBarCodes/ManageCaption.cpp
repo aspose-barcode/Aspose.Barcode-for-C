@@ -14,8 +14,14 @@ please feel free to contact us using http://www.aspose.com/community/forums/defa
 #include <system/console.h>
 #include <Generation/EncodeTypes/SymbologyEncodeType.h>
 #include <Generation/EncodeTypes/EncodeTypes.h>
+#include <Generation/BarCodeImageFormat.h>
 #include <Generation/Caption.h>
-#include <Generation/BarCodeBuilder.h>
+#include <BarCode.Generation/BarcodeGenerator.h>
+#include <BarCode.Generation/GenerationParameters/TextAlignment.h>
+#include <BarCode.Generation/GenerationParameters/CodetextParameters.h>
+#include <BarCode.Generation/GenerationParameters/CaptionParameters.h>
+#include <BarCode.Generation/GenerationParameters/BaseGenerationParameters.h>
+#include <BarCode.Generation/GenerationParameters/BarcodeParameters.h>
 #include <drawing/string_alignment.h>
 #include <drawing/imaging/image_format.h>
 
@@ -37,24 +43,27 @@ RTTI_INFO_IMPL_HASH(721288412u, ::Aspose::BarCode::Examples::CSharp::ManageBarCo
 
 void ManageCaption::Run()
 {
-    // ExStart:ManageCaption                
+    //ExStart:ManageCaption
     // The path to the documents directory.
     System::String dataDir = RunExamples::GetDataDir_ManageBarCodes();
     
     // Instantiate barcode object and set CodeText & Barcode Symbology
-    System::SharedPtr<BarCodeBuilder> barCodeBuilder = System::MakeObject<BarCodeBuilder>(u"1234567", EncodeTypes::Code128);
+    System::SharedPtr<BarcodeGenerator> generator = System::MakeObject<BarcodeGenerator>(EncodeTypes::Code128, u"1234567");
     
-    // Create caption object. Set its text and text alignment & also make it visible
-    System::SharedPtr<Caption> caption = [&]{ auto tmp_0 = System::MakeObject<Caption>(); tmp_0->set_Text(u"Aspose.BarCode"); tmp_0->set_TextAlign(System::Drawing::StringAlignment::Center); tmp_0->set_Visible(true); return tmp_0; }();
+    // Caption above. Set its text and text alignment & also make it visible
+    generator->get_Parameters()->get_CaptionAbove()->set_Alignment(TextAlignment::Center);
+    generator->get_Parameters()->get_CaptionAbove()->set_Text(u"Aspose.BarCode");
+    generator->get_Parameters()->get_CaptionAbove()->set_Visible(true);
     
-    // Assign caption object to be displayed above and below the barcode
-    barCodeBuilder->set_CaptionAbove(caption);
-    barCodeBuilder->set_CaptionBelow(caption);
+    // Caption below. Set its text and text alignment & also make it visible
+    generator->get_Parameters()->get_CaptionBelow()->set_Alignment(TextAlignment::Center);
+    generator->get_Parameters()->get_CaptionBelow()->set_Text(u"Aspose.BarCode");
+    generator->get_Parameters()->get_CaptionBelow()->set_Visible(true);    
     
     // Save the image to your system and set its image format to Jpeg
-    barCodeBuilder->Save(dataDir + u"ManageCaption_out.jpg", System::Drawing::Imaging::ImageFormat::get_Jpeg());
+    generator->Save(dataDir + u"ManageCaption_out.jpg", BarCodeImageFormat::Jpeg);
     System::Console::WriteLine(System::Environment::get_NewLine() + u"Barcode saved at " + dataDir);
-    // ExEnd:ManageCaption                
+    //ExEnd:ManageCaption
 }
 
 } // namespace ManageBarCodes

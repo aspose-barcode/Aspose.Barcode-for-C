@@ -1,5 +1,5 @@
-#ifndef _CSharp_ManageBarcodeImages_SetForeColorText_h_
-#define _CSharp_ManageBarcodeImages_SetForeColorText_h_
+#ifndef _CSharp_ManageBarcode_SetForeColorText_h_
+#define _CSharp_ManageBarcode_SetForeColorText_h_
 /*
 This project uses Automatic Package Restore feature of NuGet to resolve Aspose.BarCode for .NET API reference 
 when the project is build. Please check https://docs.nuget.org/consume/nuget-faq for more information. 
@@ -40,5 +40,5 @@ public:
 } // namespace BarCode
 } // namespace Aspose
 
-#endif // _CSharp_ManageBarcodeImages_SetForeColorText_h_
+#endif // _CSharp_ManageBarcode_SetForeColorText_h_
 
