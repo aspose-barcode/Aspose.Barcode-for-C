@@ -1,3 +1,4 @@
+![Nuget](https://img.shields.io/nuget/v/Aspose.barcode.Cpp) ![Nuget](https://img.shields.io/nuget/dt/Aspose.barcode.Cpp) ![GitHub](https://img.shields.io/github/license/aspose-barcode/Aspose.Barcode-for-C)
 ## Barcode Library for C++ Applications
 
 [Aspose.BarCode for C++](https://products.aspose.com/barcode/cpp) library allows the developers to add barcode generation & recognition capabilities to their own C++ applciations.
